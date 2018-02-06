@@ -1,0 +1,36 @@
+.title {
+	font-size: 50 px; 
+	color: lightcoral; 
+	font-family:American Typewriter;
+	text-align: center;
+}
+
+.headers{
+	text-align: center;
+}
+
+.home {
+	font-size: 10 px;
+	color:lightgrey;
+	font-family: Avenir;	
+}
+
+.MFF{
+	font-size: 10 px;
+	color:lightgrey;
+	font-family: Avenir;
+}
+
+.about {
+	font-size: 10 px; 
+	color: lightgrey;
+	font-family: Avenir;
+}
+
+.contacts {
+	font-size: 10 px;
+	color: lightgrey;
+	font-family: Avenir;
+}
+
+
