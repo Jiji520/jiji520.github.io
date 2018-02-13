@@ -116,19 +116,34 @@ text-align: center;
   height: 20%;
   width: 20%;
   margin-top: 10%;
+ 
 }
 
 .antony{
   border-radius: 50%;
   display:inline-block; 
-  height: 30%;
-  width: 30%;
+  height: 20%;
+  width: 20%;
   margin-top: 10%;
-  margin-left: 40%;
-  margin-right: 40%;
+
 }
 
+.finn {
+  border-radius: 50%;
+  display:inline-block; 
+  height: 20%;
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 
+}
 
+.baleegh {
+  border-radius: 50%;
+  display:inline-block; 
+  height: 20%;
+  width: 20%;
+  margin-top: 10%;
+}
 
 
 
