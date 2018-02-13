@@ -1,0 +1,64 @@
+.title {
+font-size: 400%;
+padding-top: 0%;
+color: black;
+font-weight: normal;
+font-family: 'Nixie One', cursive;
+text-align: center;
+}
+
+.headers {
+  text-align: center;
+  text-decoration: none;
+}
+
+.home {
+  font-size: 150%;
+  font-family: 'Flamenco', cursive;
+  color: black;
+  display:inline-block;
+  padding-right: 3%;
+  padding-left: 3%;
+  text-decoration: none;
+}
+
+.mff {
+  font-size: 150%;
+  font-family: 'Flamenco', cursive;
+  color: black;
+  display:inline-block;
+  padding-right: 3%;
+  padding-left: 3%;
+  text-decoration: none;
+}
+
+.about {
+  font-size: 150%;
+  font-family: 'Flamenco', cursive;
+  color: black;
+  display:inline-block;
+  padding-right: 3%;
+  padding-left: 3%;
+  text-decoration: none;
+}
+
+.comments{
+  font-size: 150%;
+  font-family: 'Flamenco', cursive;
+  color: black;
+  display:inline-block;
+  padding-right: 3%;
+  padding-left: 3%;
+  text-decoration: none;
+}
+.mfflogo{
+  padding-left:23.5%;
+  height:50%;
+  width:50%;
+}
+
+.mffdesc{
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Nanum Myeongjo', serif;
+}
