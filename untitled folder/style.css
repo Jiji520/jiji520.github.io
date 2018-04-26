@@ -1,0 +1,19 @@
+body { 
+background-image: url("background.png");
+background-repeat: no-repeat;
+background-color: coral; 
+
+ }
+
+.title{
+	text-align: center;
+	color: black;
+
+}
+
+audio {
+  float: right;
+  margin-bottom:0;
+}
+
+
