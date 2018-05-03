@@ -651,3 +651,19 @@ var snowStorm = (function(window, document) {
   return this;
 
 }(window, document));
+
+
+
+document.getElementById("myButton").addEventListener("click", function(){
+    document.getElementById("demo").innerHTML = "Merry Christmas";
+});
+
+
+
+
+
+
+
+
+
+
