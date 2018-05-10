@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<title>commLab</title>
+	<script src="jquery.js"></script>
+</head>
+<body>
+	
+	<div class="header-background"></div>
+	<div class="commlab header">
+		<h1>Communications Lab</h1>
+		<h2>Spring 2018</h2>
+		<h3>By Ji Young Kim</h3>
+		<a href="#MFF"><button>Check out my projects</button></a>
+	</div>
+	
+	<div class="MFF-background"></div>
+	<div class="commlab MFF" id="MFF">
+		<h1> 30 Minute Film Festival</h1>
+		<p> Tell me about it, the Struggles of NYUAD Students. 
+		In collaborations with Finn, Baleegh, and Antony.</p>
+		<a href = "https://jiji520.github.io/30MFF/firstpage.html"></a>
+
+	</div>
+
+	<div class="sound-background"></div>
+	<div class="commlab sound">
+		<h1> Sounds of Abu Dhabi </h1>
+		<p> Explore Abu Dhabi through sounds. In collaborations with Sara </p>
+		<a href="https://saralzaabi.github.io/Assignment%202/index.html"></a>
+	</div>
+
+	
+	<div class="commlab comic">
+		<h1> The Hero, The Dragon, and The Princess </h1>
+		<p> Will the hero save the day? Comic Project in collaborations with Hatim and Antony</p>
+		<a href="https://antonytahan.github.io/Comic/comic.html"></a>
+	</div>
+
+	<div class="trip-background"></div>
+	<div class="commlab trip">
+		<h1>How to Plan a Cheap Spring Break</h1>
+		<p>Are you a broke college student? Let us plan your spring break for you! In collaboration with Sara and Simran</p>
+		<a href="https://simranparwani.github.io/ProjectFourVideo/index.html"></a>
+	</div>
+
+	<div class ="commlab bw phone"> 
+		<h1>IPheona</h1>
+		<p>What if I told you your phone was alive? Animation Project in collaboration with Ju Hee</p>
+		<a href="https://jhn281.github.io/iPhoena/index.html"></a>
+	</div>	
+	
+
+	<script>
+		$(document).ready(function() {
+			$('a[href^="#"]').click(function(event) {
+			    var target = $(this.getAttribute('href'));
+			    if( target.length ) {
+			        event.preventDefault();
+			        $('html, body').stop().animate({
+			            scrollTop: target.offset().top
+			        }, 1000);
+			    }
+			});
+		});
+	</script>
+</body>
+</html>

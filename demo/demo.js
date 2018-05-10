@@ -6,15 +6,15 @@ var green;
 var blue; 
 
 function setup () {
-	var mycanvas = createCanvas (windowWidth, windowHeight); 
-	background (255);
+	createCanvas(windowWidth, windowHeight); 
 }
 
 
 function draw() { 
-  red = (var) random(0, 255);
-  green = (var) random(0, 255); 
-  blue = (var) random(0, 255); 
+  red = random(0, 255);
+  green = random(0, 255); 
+  blue = random(0, 255); 
+  noStroke (); 
  
   if (mouseIsPressed){
   fill (red, green, blue);
